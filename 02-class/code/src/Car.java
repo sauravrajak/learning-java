@@ -1,14 +1,16 @@
 public class Car {
+    // class is just like a blueprint
     String make = "Chevrolet";
     String module = "Corvette";
     int year = 2020;
     String color = "Blue";
     double price = 50_000.00;
 
-    void drive(){
+    void drive() {
         System.out.println("You drive the car");
     }
-    void brake(){
+
+    void brake() {
         System.out.println("You step on the brakes");
     }
 }
