@@ -17,6 +17,9 @@ class Human {
     void eat(){
         System.out.println(this.name+" is eating.");
     }
+    void drink(){
+        System.out.println(this.name+" is drinking🍻.");
+    }
 }
 
 public class Constructors {
@@ -29,9 +32,10 @@ public class Constructors {
         Human human1 = new Human("Saurav", 25, 71);
         Human human2 = new Human("Sonam", 25, 65);
         System.out.println(human1.name);
-        human1.eat();
         System.out.println(human2.name);
-        human2.eat();
+        human1.eat();
+
+        human2.drink();
 
     }
 }
