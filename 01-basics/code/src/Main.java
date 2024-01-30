@@ -24,3 +24,5 @@ public class Main{
         System.out.printf("Hello %s!,\nYou are %d year old.Your Profession is %s.",name,age,profession);
     }
 }
+
+
