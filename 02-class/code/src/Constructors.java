@@ -14,6 +14,9 @@ class Human {
         this.weight = weight;
 
     }
+    void eat(){
+        System.out.println(this.name+" is eating.");
+    }
 }
 
 public class Constructors {
@@ -23,10 +26,12 @@ public class Constructors {
         // it allows us to construct objects which has varying attributes
         // such as every human will have different name,age,weight
 
-        Human human1 = new Human("Saurav", 25, 62);
-        Human human2 = new Human("Sonam", 25, 75);
+        Human human1 = new Human("Saurav", 25, 71);
+        Human human2 = new Human("Sonam", 25, 65);
         System.out.println(human1.name);
+        human1.eat();
         System.out.println(human2.name);
+        human2.eat();
 
     }
 }
