@@ -14,17 +14,14 @@ public class ToSTRING {
 
         // instantiating an object of Car Class
         Car car = new Car();
-        // accessing the properties of car object
-        System.out.println(car.make);
-        System.out.println(car.model);
-        System.out.println(car.color);
-        System.out.println(car.year);
+        // accessing the attributes  of car object
+        // using overridden toString() methods
+        try {
+            System.out.println(car.toString());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
-        // address of car object in memory
-        System.out.println(car);
-
-        // address of car object in memory
-        System.out.println(car.toString());
 
     }
 }
