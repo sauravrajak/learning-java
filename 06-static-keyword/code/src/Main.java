@@ -17,7 +17,7 @@ public class Main {
         Friend friend1 = new Friend("Rohan");
         Friend friend2 = new Friend("Arjun");
 
-        System.out.println(Friend.numberOfFriends);
+        Friend.displayFriends();
 
     }
 }

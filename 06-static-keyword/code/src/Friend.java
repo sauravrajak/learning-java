@@ -9,4 +9,8 @@ public class Friend {
         // cause there is only one numberOfFriends which is being shared by all object of Friend class
         numberOfFriends++;
     }
+
+    static void displayFriends(){
+        System.out.println("You have "+numberOfFriends+" Friends.");
+    }
 }
